@@ -17,6 +17,8 @@ This repository is the public engineering portfolio of **Valter Lourenço Junior
 | [NCMA MCP Gateway](projects/mcp-gateway.md) | Fixed tool allowlists, bounded actions, risk classification, prepare/confirm and auditability | Security-oriented system design |
 | [Web Research V1](projects/web-research-v1.md) | Search/extraction pipeline, cited research and integration constraints | Work-in-progress technical case |
 | [Local LLM benchmark](projects/local-llm-benchmarking.md) | Controlled Qwen3.5-4B / Ministral / Phi-4 inference comparison, resource profiling and completion accounting | **Historical offline case study with explicit limits** |
+| [Brazilian Portuguese ASR benchmark](projects/asr-benchmarking.md) | Fixed 24-clip comparison, WER/CER, latency and runtime qualification | **Historical offline model benchmark** |
+| [Fine-tuning and evaluation](projects/fine-tuning-evaluation.md) | Held-out ASR adaptation, LoRA export parity and safety limitations | **Dated training/evaluation case study** |
 | [Agent Governance Lab](https://github.com/Ozzurac/agent-governance-lab) | Small Python implementation of a governed tool loop | **Runnable source + automated tests** |
 | [NCMA Validation Patterns](https://github.com/Ozzurac/ncma-validation-patterns) | Safe error contracts, asymmetric regression comparison and quality metrics | **Standalone runnable Python + automated tests** |
 
