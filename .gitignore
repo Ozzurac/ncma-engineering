@@ -1,0 +1,14 @@
+# Portfolio documentation repo
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.sqlite
+*.db
+__pycache__/
+*.log
