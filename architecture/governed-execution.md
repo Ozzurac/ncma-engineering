@@ -8,29 +8,43 @@ The underlying rule is independent of any specific model or deployment: **a mode
 
 *Figma-authored editorial overview. Logical boundaries only; not deployment topology or proof of a fully integrated runtime. [Visual provenance and publication review](assets/README.md).*
 
-**Maintained Mermaid model (detailed decision and exception paths):**
+**Maintained Mermaid references:** the governance decision and the change-verification path are separated so neither has misleading crossing arrows.
+
+<details>
+<summary>Flow A: validate and classify an untrusted proposal</summary>
 
 ```mermaid
-flowchart TD
-    USER["Human request / intent"] --> MODEL["Untrusted model suggestion"]
-    MODEL --> CONTRACT["Validate capability, arguments and target identity"]
-    CONTRACT --> VALID{"Supported and in scope?"}
-    VALID -->|"No / unknown"| DENY["DENY or UNKNOWN"]
-    VALID -->|"Yes"| RISK{"Risk category"}
+flowchart TB
+    REQUEST["Human request"] --> PROPOSAL["Model proposal (untrusted)"]
+    PROPOSAL --> CONTRACT["Typed capability and target validation"]
+    CONTRACT --> SCOPE{"Allowed and scoped?"}
+    SCOPE -->|"No or unknown"| DENIED["DENIED / UNKNOWN"]
+    SCOPE -->|"Yes"| RISK{"Risk category"}
     RISK -->|"Read-only"| READ["Authorized observation"]
-    RISK -->|"Consequential change"| PREP["Prepare exact bounded change"]
-    PREP --> CONFIRM{"Trusted human confirmation?"}
-    CONFIRM -->|"No / expired / mismatch"| DENY
-    CONFIRM -->|"Yes"| WRITE["Execute bounded adapter"]
-    READ --> VERIFY["Observe result and verify as possible"]
-    WRITE --> VERIFY
-    VERIFY --> RESULT{"Evidence supports claim?"}
-    RESULT -->|"Yes"| PASS["VERIFIED within stated scope"]
-    RESULT -->|"No"| FAIL["FAILED / INCONCLUSIVE"]
-    PASS --> RECEIPT["Return scoped receipt"]
-    FAIL --> RECEIPT
-    DENY --> RECEIPT
+    RISK -->|"Change"| PREPARE["Prepare exact bounded change"]
 ```
+
+*Read-only observation proceeds to evidence verification; preparing a change does not execute it.*
+
+</details>
+
+<details>
+<summary>Flow B: approval, execution and evidence</summary>
+
+```mermaid
+flowchart TB
+    PREPARED["Prepared change"] --> CONFIRM{"Trusted owner approval?"}
+    CONFIRM -->|"No, expired or mismatch"| STOP["DENIED; no execution"]
+    CONFIRM -->|"Yes"| EXECUTE["Bounded adapter"]
+    EXECUTE --> OBSERVE["Observe resulting state"]
+    OBSERVE --> PROOF{"Evidence supports claim?"}
+    PROOF -->|"Yes"| VERIFIED["VERIFIED within scope"]
+    PROOF -->|"No or unavailable"| UNKNOWN["FAILED / INCONCLUSIVE"]
+```
+
+*An execution receipt is not, by itself, independent verification; the evidence requirement applies to read-only and mutation paths.*
+
+</details>
 
 ## Controller obligations
 

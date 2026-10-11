@@ -6,22 +6,41 @@
 
 *Figma-authored editorial overview. Logical boundaries only; not deployment topology or proof of a fully integrated runtime. [Visual provenance and publication review](assets/README.md).*
 
-**Maintained Mermaid model (detailed decision and exception paths):**
+**Maintained Mermaid references:** qualification is divided into **evidence collection** and **owner acceptance**, instead of a large branch-and-merge graph.
+
+<details>
+<summary>Flow A: bounded measurement and test evidence</summary>
 
 ```mermaid
-flowchart TD
-    INPUT["Declared workload, fixtures, constraints and versions"] --> OFFLINE["Offline model / component evaluation"]
-    INPUT --> CODE["Unit, negative and integration checks"]
-    OFFLINE --> REPORT["Measured scores, completion and limitations"]
+flowchart TB
+    INPUT["Declared workload and fixtures"] --> MODEL["Offline model evaluation"]
+    INPUT --> CODE["Software and negative tests"]
+    MODEL --> REPORT["Scoped metrics and limits"]
     CODE --> REPORT
-    REPORT --> GATE{"Checkpoint and evidence complete?"}
-    GATE -->|"No"| REJECT["REJECT / UNKNOWN / investigate"]
-    GATE -->|"Yes, bounded"| INTEGRATE["Controlled integration run"]
-    INTEGRATE --> EFFECT["Observe actual effects and capture receipts"]
-    EFFECT --> OWNER{"Independent owner / product acceptance?"}
-    OWNER -->|"No / missing"| HOLD["Not release-qualified"]
-    OWNER -->|"Yes, within scope"| STATUS["Accepted for explicitly defined scope"]
+    REPORT --> GATE{"Evidence complete?"}
+    GATE -->|"No"| STOP["REJECT / UNKNOWN"]
+    GATE -->|"Yes"| CANDIDATE["Candidate for integration"]
 ```
+
+*Benchmark and CI results are separate evidence categories, even when summarized together.*
+
+</details>
+
+<details>
+<summary>Flow B: integration observation and independent acceptance</summary>
+
+```mermaid
+flowchart TB
+    CANDIDATE["Qualified integration candidate"] --> RUN["Controlled integration run"]
+    RUN --> OBSERVE["Observe effect and receipt"]
+    OBSERVE --> HUMAN{"Owner accepts evidence?"}
+    HUMAN -->|"No or not observed"| HOLD["Not release-qualified"]
+    HUMAN -->|"Yes, within scope"| ACCEPT["Scoped acceptance"]
+```
+
+*Acceptance proves only the declared scope and checkpoint, not future behavior.*
+
+</details>
 
 ## Keep the evidence categories separate
 

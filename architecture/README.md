@@ -25,24 +25,25 @@ Each linked page has its own Figma-authored SVG and a **separate maintained Merm
 
 ## System boundaries, not one universal orchestrator
 
+The overview is intentionally **collapsed** by default. The five branded Figma architecture figures above are the visual entry points; the Mermaid sketch below is an optional, smaller responsibility map.
+
+<details>
+<summary>Expand compact logical-system overview</summary>
+
 ```mermaid
 flowchart TB
-    U["Human intent and review"]
-    A["Jarvis: local-first interaction and model selection"]
-    T["Governed capabilities and domain controllers"]
-    K["Knowledge / web-source discovery"]
-    F["ModForge: specification and validation"]
-    E["Receipts, citations, checks and observed evidence"]
-    H["Human Plane: owner review and settlement"]
-    U --> A
-    A -->|"proposed action, not permission"| T
-    T -->|"bounded discovery"| K
-    T -->|"domain-specific operations where integrated"| F
-    K --> E
-    F --> E
-    E --> H
-    H -->|"approved decisions only"| U
+    HUMAN["Human intent"] --> JARVIS["Jarvis interaction"]
+    JARVIS --> CONTROL["Governed capabilities"]
+    CONTROL --> DISCOVERY["Source discovery"]
+    CONTROL --> DOMAIN["Domain validation"]
+    DISCOVERY --> EVIDENCE["References and receipts"]
+    DOMAIN --> EVIDENCE
+    EVIDENCE --> REVIEW["Human Plane review"]
 ```
+
+*Owner decisions govern subsequent actions. The return loop is intentionally described rather than drawn across the page.*
+
+</details>
 
 **Diagram semantics:** these are *logical responsibilities and recurring engineering patterns*. The drawing does not assert that every path is currently wired together, deployed on one system or release-qualified. In particular, the public [Jarvis case](../projects/jarvis-v2.md) records outstanding owner acceptance gates, and the [Web Research case](../projects/web-research-v1.md) records pending end-to-end synthesis.
 

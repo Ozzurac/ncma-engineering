@@ -8,27 +8,43 @@ ModForge is the **domain engineering and validation** workstream. Human Plane is
 
 *Figma-authored editorial overview. Logical boundaries only; not deployment topology or proof of a fully integrated runtime. [Visual provenance and publication review](assets/README.md).*
 
-**Maintained Mermaid model (detailed decision and exception paths):**
+**Maintained Mermaid references:** the build gate and owner settlement are separate. Rejected/unknown states return for operator review rather than creating a tangled feedback loop on the page.
+
+<details>
+<summary>Flow A: specification, generation and deterministic gates</summary>
 
 ```mermaid
-flowchart TD
+flowchart TB
     INTENT["Operator intent"] --> SPEC["Bounded specification"]
-    SPEC --> PLAN["Architecture and generation proposal"]
-    PLAN --> GEN["Artifact generation"]
-    GEN --> GATE["Deterministic parse, resolve and semantic gates"]
-    GATE --> CHECK{"Evidence sufficient to build?"}
-    CHECK -->|"FAIL / UNKNOWN"| REPAIR["Return defect / unsupported state for review"]
-    REPAIR --> SPEC
-    CHECK -->|"Within scope"| BUILD["Build and validation checkpoint"]
-    BUILD --> PROBE["Independent read-only runtime observation, where applicable"]
-    PROBE --> RESULT{"Predicted and observed state agree?"}
-    RESULT -->|"Mismatch / unavailable"| REPAIR
-    RESULT -->|"Scoped match"| EVIDENCE["Evidence package: inputs, decisions, checks, observations"]
-    EVIDENCE --> HP["Human Plane review"]
-    HP --> OWNER{"Owner settlement decision"}
-    OWNER -->|"Reject / revise"| REPAIR
-    OWNER -->|"Approve within scope"| ACCEPT["Recorded owner decision, not universal correctness"]
+    SPEC --> PROPOSAL["Architecture / generation proposal"]
+    PROPOSAL --> GATE["Parse, resolve and semantic gates"]
+    GATE --> CHECK{"Evidence sufficient?"}
+    CHECK -->|"FAIL or UNKNOWN"| REVISE["Return to operator for revision"]
+    CHECK -->|"Within scope"| BUILD["Build / validation checkpoint"]
 ```
+
+*This depicts a generalized engineering sequence, not autonomous promotion to a release.*
+
+</details>
+
+<details>
+<summary>Flow B: external observation and human settlement</summary>
+
+```mermaid
+flowchart TB
+    BUILD["Bounded build checkpoint"] --> PROBE["Independent read-only observation"]
+    PROBE --> MATCH{"Predicted state observed?"}
+    MATCH -->|"No or unavailable"| REWORK["Rework or UNKNOWN"]
+    MATCH -->|"Scoped match"| PACKAGE["Evidence package"]
+    PACKAGE --> HP["Human Plane review"]
+    HP --> OWNER{"Owner decision"}
+    OWNER -->|"Reject or revise"| REWORK
+    OWNER -->|"Approve within scope"| ACCEPT["Recorded scoped settlement"]
+```
+
+*Observed state is bounded by the probe's reach; owner settlement does not prove universal gameplay correctness.*
+
+</details>
 
 ## Responsibility boundaries
 

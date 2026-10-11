@@ -10,27 +10,50 @@ NCMA has distinct **internal knowledge retrieval** and **web research** workstre
 
 *Figma-authored editorial overview. Logical boundaries only; not deployment topology or proof of a fully integrated runtime. [Visual provenance and publication review](assets/README.md).*
 
-**Maintained Mermaid model (detailed decision and exception paths):**
+**Maintained Mermaid references:** the two source pipelines below stay independent. A final *conceptual* evidence gate illustrates how grounded claims should be qualified; it does **not** imply one deployed API combining these workstreams.
+
+<details>
+<summary>Flow A: private knowledge discovery</summary>
 
 ```mermaid
 flowchart TB
-    subgraph K["Private knowledge | durable evidence history"]
-      CORPUS["Controlled source material"] --> INGEST["Ingestion and stable provenance"]
-      INGEST --> CHUNK["Normalized chunks / source links"]
-      CHUNK --> INDEX["Lexical and vector retrieval views"]
-      INDEX --> CAND["Ranked candidates with source references"]
-    end
-    subgraph W["Web research | integration workstream"]
-      QUESTION["Research question"] --> SEARCH["Search candidates"]
-      SEARCH --> EXTRACT["Bounded page extraction"]
-      EXTRACT --> REF["Normalized excerpts and source URLs"]
-    end
-    CAND --> ASSEMBLE["Evidence assembly for downstream use"]
-    REF --> ASSEMBLE
-    ASSEMBLE --> GATE{"Sources support each asserted claim?"}
-    GATE -->|"Supported"| ANSWER["Qualified cited answer"]
-    GATE -->|"Missing, conflicting or unverified"| UNCERTAIN["State limitations / no invented citation"]
+    CORPUS["Controlled sources"] --> INGEST["Ingestion and provenance"]
+    INGEST --> CHUNKS["Normalized chunks"]
+    CHUNKS --> RETRIEVE["Lexical / vector retrieval"]
+    RETRIEVE --> CANDIDATES["Ranked source candidates"]
 ```
+
+*Ranking is discovery, not deterministic domain truth.*
+
+</details>
+
+<details>
+<summary>Flow B: web research source collection</summary>
+
+```mermaid
+flowchart TB
+    QUESTION["Research question"] --> SEARCH["Search candidates"]
+    SEARCH --> EXTRACT["Bounded extraction"]
+    EXTRACT --> REFERENCES["Excerpts with source URLs"]
+```
+
+*End-to-end accepted cited synthesis was still pending at the documented checkpoint.*
+
+</details>
+
+<details>
+<summary>Flow C: conceptual claim-support gate</summary>
+
+```mermaid
+flowchart TB
+    SOURCES["Source references"] --> VERIFY{"Claim supported?"}
+    VERIFY -->|"Yes"| QUALIFIED["Qualified cited claim"]
+    VERIFY -->|"Missing or conflicting"| UNKNOWN["Limitations / UNKNOWN"]
+```
+
+*Source citations provide traceability, not proof by themselves. This gate is a design responsibility, not a claim of completed cross-workstream integration.*
+
+</details>
 
 **Logical only:** the converged evidence-assembly box is a design concern, **not a claim that the two paths share one deployed API**.
 
