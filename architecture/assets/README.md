@@ -11,6 +11,17 @@ These SVGs are **sanitized editorial exports of editable Figma Design frames**, 
 | [modforge-human-plane.svg](modforge-human-plane.svg) | Specification, validation, independent observation and human settlement | [ModForge and Human Plane](../modforge-human-plane.md) |
 | [measurement-qualification.svg](measurement-qualification.svg) | Different evidence and qualification gates | [Measurement and qualification](../measurement-qualification.md) |
 
+## Professional work | separate sanitized illustrations
+
+| Export | Public case study | Source and disclosure |
+| --- | --- | --- |
+| [professional-backlog-compliance.svg](professional-backlog-compliance.svg) | [Operational Backlog Compliance](../../projects/operational-backlog-compliance.md) | Independently authored illustration of generalized engineering responsibilities |
+| [professional-evidence-triage.svg](professional-evidence-triage.svg) | [Evidence-Assisted Backlog Triage](../../projects/evidence-assisted-backlog-triage.md) | Independently authored illustration of bounded evidence discovery and human review |
+
+These two illustrations are different from the NCMA independent-lab architecture above. The underlying professional projects were developed during **employment at Accenture**, while these diagrams were created **later, independently for the public portfolio**. They are not employer architectural documents, copied screenshots, products licensed from the company or evidence of employer approval.
+
+The editable masters live in the NCMA V4 Figma page `04 — Professional Work / Sanitized Case Studies`. The exports contain vector nodes and text but **no copied employer assets or embedded images**. Their color and typography tokens are NCMA *portfolio presentation styling*, not a claim that NCMA owned or operated the employer projects.
+
 ## Visual source of truth
 
 The editable design master lives in the private NCMA V4 Figma **Architecture Atlas** page. Components inherit the existing V4 visual tokens: dark surfaces, muted signal teal, controlled amber for human authority, Inter and IBM Plex Mono. The Raven mark is an editorial treatment of the original brand illustration already embedded in that Figma file; the source raster is not separately published here.
