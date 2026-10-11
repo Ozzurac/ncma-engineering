@@ -36,3 +36,5 @@ Search and extraction services were deployed in an isolated OCI environment, wit
 The development objective is to prevent unsupported citations, retain the origin of extracted passages and report extraction failures without manufacturing a complete answer.
 
 This is a **case study of active work**, not a benchmarked public search product or a deployed service endpoint.
+
+**Sanitized architecture:** [Retrieval and provenance](../architecture/retrieval-provenance.md).
