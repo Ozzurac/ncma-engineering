@@ -47,3 +47,5 @@ The patterns transfer directly to infrastructure-as-code validation, policy-as-c
 Full engine code and game-specific assets are not republished here. Copyrighted game resources are not redistributed.
 
 **Related:** [Evidence register](../EVIDENCE.md).
+
+**Sanitized architecture:** [ModForge + Human Plane](../architecture/modforge-human-plane.md) · [Measurement and qualification](../architecture/measurement-qualification.md).

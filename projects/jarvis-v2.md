@@ -68,3 +68,5 @@ Several physical owner acceptance gates remained pending; the broader autonomous
 - Record failures honestly and keep historical experiments out of the active product baseline.
 
 **Related public code:** [Agent Governance Lab](https://github.com/Ozzurac/agent-governance-lab), a standalone educational reference. It is not the Jarvis production code.
+
+**Sanitized architecture:** [Hybrid systems](../architecture/hybrid-systems.md) · [Governed execution](../architecture/governed-execution.md).

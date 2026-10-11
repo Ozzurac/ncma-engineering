@@ -16,6 +16,8 @@
 - Current employer/client information, incident records, internal processes and confidential performance data.
 - Benchmarks without source, environment, scope, date and limitations.
 
+See the [architecture publication checklist](architecture/PUBLICATION_REVIEW.md) for a separate truth, threat and redistribution review before publishing new flows or diagrams.
+
 ## Claim discipline
 
 - **Implemented** means a specific component exists.

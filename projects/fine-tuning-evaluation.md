@@ -81,3 +81,5 @@ public document until their records can be reviewed independently.
 **Public code:** The `ncma-validation-patterns` synthetic standalone examples
 show split-overlap checks and dev-only checkpoint selection, but contain no
 private training recipe, original harness or training data.
+
+**Sanitized architecture:** [Measurement and qualification](../architecture/measurement-qualification.md).
