@@ -1,0 +1,67 @@
+<svg width="1640" height="917" viewBox="0 0 1640 917" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="1639" height="916" rx="15.5" fill="#060708"/>
+<rect x="0.5" y="0.5" width="1639" height="916" rx="15.5" stroke="#1F2529"/>
+<rect width="1640" height="5" fill="#9CCFC8"/>
+<text fill="#9CCFC8" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="15" letter-spacing="0em"><tspan x="53" y="54.625">PROFESSIONAL WORK   /   01   /   LOGICAL ARCHITECTURE</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="46" font-weight="500" letter-spacing="0em"><tspan x="53" y="135.727">Operational Backlog Compliance</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" font-weight="500" letter-spacing="0em"><tspan x="53" y="173.136">Deterministic preparation bounds AI review; validation and historic evidence survive failures.</tspan></text>
+<rect x="53" y="218" width="1534" height="2" fill="#1F2529"/>
+<rect x="53.5" y="249.5" width="483" height="549" rx="11.5" fill="#090B0D"/>
+<rect x="53.5" y="249.5" width="483" height="549" rx="11.5" stroke="#9CCFC8"/>
+<text fill="#9CCFC8" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="14" letter-spacing="0em"><tspan x="75" y="283.25">01  SOURCE &#38; PREPARATION</tspan></text>
+<rect x="141.5" y="330.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="141.5" y="330.5" width="303" height="121" rx="7.5" stroke="#9CCFC8"/>
+<text fill="#9CCFC8" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="161" y="357.125">LOCAL / SOURCE</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="161" y="385.273">Time-based snapshots</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="161" y="409.375">Repeat records preserve evolution</tspan></text>
+<rect x="141.5" y="478.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="141.5" y="478.5" width="303" height="121" rx="7.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="161" y="505.125">CONTROL / POLICY</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="161" y="533.273">Deterministic parsing</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="161" y="557.375">Normalize and extract facts</tspan></text>
+<rect x="141.5" y="626.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="141.5" y="626.5" width="303" height="121" rx="7.5" stroke="#A6B0B9"/>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="161" y="653.125">EVIDENCE / READ</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="161" y="681.273">Batch manifest</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="161" y="705.375">Track coverage and safe </tspan><tspan x="161" y="722.375">resumption</tspan></text>
+<text fill="#9CCFC8" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="35" font-weight="500" letter-spacing="0em"><tspan x="539" y="551.727">&#x2192;</tspan></text>
+<rect x="577.5" y="249.5" width="483" height="549" rx="11.5" fill="#090B0D"/>
+<rect x="577.5" y="249.5" width="483" height="549" rx="11.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="14" letter-spacing="0em"><tspan x="599" y="283.25">02  REVIEW &#38; CONTROL</tspan></text>
+<rect x="665.5" y="330.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="665.5" y="330.5" width="303" height="121" rx="7.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="685" y="357.125">CONTROL / POLICY</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="685" y="385.273">Bounded AI review</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="685" y="409.375">Semantic policy / exception </tspan><tspan x="685" y="426.375">review</tspan></text>
+<rect x="665.5" y="478.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="665.5" y="478.5" width="303" height="121" rx="7.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="685" y="505.125">CONTROL / POLICY</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="685" y="533.273">Retry / quarantine</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="685" y="557.375">Isolate failed review units</tspan></text>
+<rect x="665.5" y="626.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="665.5" y="626.5" width="303" height="121" rx="7.5" stroke="#A6B0B9"/>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="685" y="653.125">EVIDENCE / READ</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="685" y="681.273">Schema reconciliation</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="685" y="705.375">Reject missing or invalid </tspan><tspan x="685" y="722.375">coverage</tspan></text>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="35" font-weight="500" letter-spacing="0em"><tspan x="1063" y="551.727">&#x2192;</tspan></text>
+<rect x="1101.5" y="249.5" width="483" height="549" rx="11.5" fill="#090B0D"/>
+<rect x="1101.5" y="249.5" width="483" height="549" rx="11.5" stroke="#A6B0B9"/>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="14" letter-spacing="0em"><tspan x="1123" y="283.25">03  HISTORY &#38; DECISION</tspan></text>
+<rect x="1189.5" y="330.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="1189.5" y="330.5" width="303" height="121" rx="7.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="1209" y="357.125">CONTROL / POLICY</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="1209" y="385.273">Atomic persistence</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="1209" y="409.375">No partial accepted load</tspan></text>
+<rect x="1189.5" y="478.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="1189.5" y="478.5" width="303" height="121" rx="7.5" stroke="#A6B0B9"/>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="1209" y="505.125">EVIDENCE / READ</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="1209" y="533.273">Historical evidence</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="1209" y="557.375">Current and prior state views</tspan></text>
+<rect x="1189.5" y="626.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="1189.5" y="626.5" width="303" height="121" rx="7.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="1209" y="653.125">HUMAN / DECISION</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="1209" y="681.273">Operator review</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="1209" y="705.375">Action remains human-owned</tspan></text>
+<rect x="53" y="811" width="1534" height="60" rx="9" fill="#0D0F11"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="71" y="844.375">SEPARATE DETERMINISTIC FACTS FROM PROBABILISTIC ASSESSMENT &#xb7; UNKNOWN MUST NOT BECOME PASS</tspan></text>
+</svg>
