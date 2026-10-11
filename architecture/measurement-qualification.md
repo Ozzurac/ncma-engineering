@@ -2,6 +2,12 @@
 
 **Question:** how can a fast model, a green CI run and a working user-facing system be evaluated without confusing their evidence?
 
+![NCMA Measurement and Qualification, distinguishing model benchmarks, software CI, observed effects and product acceptance](assets/measurement-qualification.svg)
+
+*Figma-authored editorial overview. Logical boundaries only; not deployment topology or proof of a fully integrated runtime. [Visual provenance and publication review](assets/README.md).*
+
+**Maintained Mermaid model (detailed decision and exception paths):**
+
 ```mermaid
 flowchart TD
     INPUT["Declared workload, fixtures, constraints and versions"] --> OFFLINE["Offline model / component evaluation"]
