@@ -26,7 +26,9 @@ This repository is the public engineering portfolio of **Valter Lourenço Junior
 
 ## Architecture maps
 
-The **[NCMA Architecture Atlas](architecture/README.md)** provides five sanitization-reviewed, GitHub-native Mermaid views: [hybrid systems](architecture/hybrid-systems.md), [governed execution](architecture/governed-execution.md), [retrieval and provenance](architecture/retrieval-provenance.md), [ModForge and Human Plane](architecture/modforge-human-plane.md), and [measurement / qualification](architecture/measurement-qualification.md). These are **logical views, not production network topology or proof of fully integrated deployment**.
+[![NCMA Systems Figma Architecture Atlas — applied AI engineering, evidence and human control](architecture/assets/atlas-cover.svg)](architecture/README.md)
+
+The **[NCMA Architecture Atlas](architecture/README.md)** provides five Figma-branded, sanitization-reviewed architecture illustrations **backed by maintained Mermaid source diagrams**: [hybrid systems](architecture/hybrid-systems.md), [governed execution](architecture/governed-execution.md), [retrieval and provenance](architecture/retrieval-provenance.md), [ModForge and Human Plane](architecture/modforge-human-plane.md), and [measurement / qualification](architecture/measurement-qualification.md). These are **logical views, not production network topology or proof of fully integrated deployment**.
 
 ## Common engineering principles
 
