@@ -4,6 +4,12 @@
 
 ModForge is the **domain engineering and validation** workstream. Human Plane is the **operator-facing review and decision** layer. Neither a fluent generated specification nor a successful compiler response is sufficient proof.
 
+![NCMA ModForge and Human Plane, from bounded specification through independent evidence and owner settlement](assets/modforge-human-plane.svg)
+
+*Figma-authored editorial overview. Logical boundaries only; not deployment topology or proof of a fully integrated runtime. [Visual provenance and publication review](assets/README.md).*
+
+**Maintained Mermaid model (detailed decision and exception paths):**
+
 ```mermaid
 flowchart TD
     INTENT["Operator intent"] --> SPEC["Bounded specification"]

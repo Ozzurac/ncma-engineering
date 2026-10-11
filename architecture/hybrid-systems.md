@@ -4,6 +4,12 @@
 
 This is a **sanitized capability-zone diagram**, not a literal network, runtime service-discovery map or deployment inventory. Boxes describe classes of responsibility, not individual hosts. Arrows describe intended information flow and control boundaries; cross-workstream integration must be separately proven.
 
+![NCMA Hybrid Systems architecture, showing local interaction, bounded controller and separated private service domains](assets/hybrid-systems.svg)
+
+*Figma-authored editorial overview. Logical boundaries only; not deployment topology or proof of a fully integrated runtime. [Visual provenance and publication review](assets/README.md).*
+
+**Maintained Mermaid model (detailed decision and exception paths):**
+
 ```mermaid
 flowchart LR
     subgraph LOCAL["Local interaction zone"]

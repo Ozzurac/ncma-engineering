@@ -6,6 +6,12 @@ NCMA has distinct **internal knowledge retrieval** and **web research** workstre
 
 ## Two source paths
 
+![NCMA Retrieval and Provenance, with distinct internal knowledge and web research paths and source-review gates](assets/retrieval-provenance.svg)
+
+*Figma-authored editorial overview. Logical boundaries only; not deployment topology or proof of a fully integrated runtime. [Visual provenance and publication review](assets/README.md).*
+
+**Maintained Mermaid model (detailed decision and exception paths):**
+
 ```mermaid
 flowchart TB
     subgraph K["Private knowledge | durable evidence history"]
