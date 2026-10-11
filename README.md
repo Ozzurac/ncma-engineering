@@ -14,6 +14,8 @@ This repository is the public engineering portfolio of **Valter Lourenço Junior
 | --- | --- | --- |
 | [Jarvis V2: Local-first AI agent](projects/jarvis-v2.md) | Desktop agency, local model/voice integration, human authorization, execution receipts, product acceptance | Architecture and dated evidence; **not a release** |
 | [ModForge V2: Validation against reality](projects/modforge-v2.md) | Parsing, inheritance resolution, schema proof, defect injection and independent runtime probes | Failure analysis and verification methodology |
+| [Knowledge Runtime](projects/knowledge-runtime.md) | Persistent evidence, provenance and bounded lexical/vector discovery | Sanitized architectural account; operational health checkpoint, not a public API |
+| [Human Plane](projects/human-plane.md) | Operator-controlled review, guarded changes, effective state and settlement | Public responsibility map; no autonomous-operation claim |
 | [NCMA MCP Gateway](projects/mcp-gateway.md) | Fixed tool allowlists, bounded actions, risk classification, prepare/confirm and auditability | Security-oriented system design |
 | [Web Research V1](projects/web-research-v1.md) | Search/extraction pipeline, cited research and integration constraints | Work-in-progress technical case |
 | [Local LLM benchmark](projects/local-llm-benchmarking.md) | Controlled Qwen3.5-4B / Ministral / Phi-4 inference comparison, resource profiling and completion accounting | **Historical offline case study with explicit limits** |
@@ -21,6 +23,10 @@ This repository is the public engineering portfolio of **Valter Lourenço Junior
 | [Fine-tuning and evaluation](projects/fine-tuning-evaluation.md) | Held-out ASR adaptation, LoRA export parity and safety limitations | **Dated training/evaluation case study** |
 | [Agent Governance Lab](https://github.com/Ozzurac/agent-governance-lab) | Small Python implementation of a governed tool loop | **Runnable source + automated tests** |
 | [NCMA Validation Patterns](https://github.com/Ozzurac/ncma-validation-patterns) | Safe error contracts, asymmetric regression comparison and quality metrics | **Standalone runnable Python + automated tests** |
+
+## Architecture maps
+
+The **[NCMA Architecture Atlas](architecture/README.md)** provides five sanitization-reviewed, GitHub-native Mermaid views: [hybrid systems](architecture/hybrid-systems.md), [governed execution](architecture/governed-execution.md), [retrieval and provenance](architecture/retrieval-provenance.md), [ModForge and Human Plane](architecture/modforge-human-plane.md), and [measurement / qualification](architecture/measurement-qualification.md). These are **logical views, not production network topology or proof of fully integrated deployment**.
 
 ## Common engineering principles
 
