@@ -1,5 +1,7 @@
 # NCMA Systems | Architecture atlas
 
+![NCMA Systems branded architecture atlas cover with the Raven mark](assets/atlas-cover.svg)
+
 **Applied AI Engineering — public, sanitized logical views.**
 
 This section explains *responsibility*, *authority*, *evidence* and *failure handling* across selected NCMA workstreams. It is **not** a deployment map, a complete integration inventory or a claim that the modules form one finished production product.
@@ -14,6 +16,12 @@ This section explains *responsibility*, *authority*, *evidence* and *failure han
 | [ModForge and Human Plane](modforge-human-plane.md) | How do specifications move through deterministic checks, runtime observation and owner settlement? |
 | [Measurement and qualification](measurement-qualification.md) | Why do benchmark scores, CI passes and product acceptance remain different gates? |
 | [Publication review](PUBLICATION_REVIEW.md) | What may be published, and what stays inside the private implementation? |
+
+### Branded architecture preview
+
+[![NCMA Hybrid Systems: local interaction, bounded control and private capability zones](assets/hybrid-systems.svg)](hybrid-systems.md)
+
+Each linked page has its own Figma-authored SVG and a **separate maintained Mermaid diagram** for detailed control paths. The images are generalized, sanitized editorial views, not actual deployment maps or a claim of full system integration. See the [visual asset provenance](assets/README.md) and [publication checklist](PUBLICATION_REVIEW.md).
 
 ## System boundaries, not one universal orchestrator
 
