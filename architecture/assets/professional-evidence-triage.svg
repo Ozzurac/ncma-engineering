@@ -1,0 +1,67 @@
+<svg width="1640" height="917" viewBox="0 0 1640 917" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="1639" height="916" rx="15.5" fill="#060708"/>
+<rect x="0.5" y="0.5" width="1639" height="916" rx="15.5" stroke="#1F2529"/>
+<rect width="1640" height="5" fill="#9CCFC8"/>
+<text fill="#9CCFC8" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="15" letter-spacing="0em"><tspan x="53" y="54.625">PROFESSIONAL WORK   /   02   /   LOGICAL ARCHITECTURE</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="46" font-weight="500" letter-spacing="0em"><tspan x="53" y="135.727">Evidence-Assisted Backlog Triage</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="21" font-weight="500" letter-spacing="0em"><tspan x="53" y="173.136">Grounded context retrieval and correlation are decision support, not autonomous incident handling.</tspan></text>
+<rect x="53" y="218" width="1534" height="2" fill="#1F2529"/>
+<rect x="53.5" y="249.5" width="483" height="549" rx="11.5" fill="#090B0D"/>
+<rect x="53.5" y="249.5" width="483" height="549" rx="11.5" stroke="#9CCFC8"/>
+<text fill="#9CCFC8" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="14" letter-spacing="0em"><tspan x="75" y="283.25">01  EVIDENCE SOURCES</tspan></text>
+<rect x="141.5" y="330.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="141.5" y="330.5" width="303" height="121" rx="7.5" stroke="#A6B0B9"/>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="161" y="357.125">EVIDENCE / READ</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="161" y="385.273">Current case context</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="161" y="409.375">Source-linked records</tspan></text>
+<rect x="141.5" y="478.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="141.5" y="478.5" width="303" height="121" rx="7.5" stroke="#A6B0B9"/>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="161" y="505.125">EVIDENCE / READ</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="161" y="533.273">Active state</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="161" y="557.375">Recent operational view</tspan></text>
+<rect x="141.5" y="626.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="141.5" y="626.5" width="303" height="121" rx="7.5" stroke="#A6B0B9"/>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="161" y="653.125">EVIDENCE / READ</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="161" y="681.273">Historical context</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="161" y="705.375">Earlier states and notes</tspan></text>
+<text fill="#9CCFC8" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="35" font-weight="500" letter-spacing="0em"><tspan x="539" y="551.727">&#x2192;</tspan></text>
+<rect x="577.5" y="249.5" width="483" height="549" rx="11.5" fill="#090B0D"/>
+<rect x="577.5" y="249.5" width="483" height="549" rx="11.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="14" letter-spacing="0em"><tspan x="599" y="283.25">02  BOUNDED RETRIEVAL</tspan></text>
+<rect x="665.5" y="330.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="665.5" y="330.5" width="303" height="121" rx="7.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="685" y="357.125">CONTROL / POLICY</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="685" y="385.273">Retrieval cascade</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="685" y="409.375">Try evidence layers by scope</tspan></text>
+<rect x="665.5" y="478.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="665.5" y="478.5" width="303" height="121" rx="7.5" stroke="#A6B0B9"/>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="685" y="505.125">EVIDENCE / READ</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="685" y="533.273">Source provenance</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="685" y="557.375">Disclose which evidence was found</tspan></text>
+<rect x="665.5" y="626.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="665.5" y="626.5" width="303" height="121" rx="7.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="685" y="653.125">CONTROL / POLICY</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="685" y="681.273">Abstain on gaps</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="685" y="705.375">Not found is not a guess</tspan></text>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="35" font-weight="500" letter-spacing="0em"><tspan x="1063" y="551.727">&#x2192;</tspan></text>
+<rect x="1101.5" y="249.5" width="483" height="549" rx="11.5" fill="#090B0D"/>
+<rect x="1101.5" y="249.5" width="483" height="549" rx="11.5" stroke="#A6B0B9"/>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="14" letter-spacing="0em"><tspan x="1123" y="283.25">03  HUMAN DECISION</tspan></text>
+<rect x="1189.5" y="330.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="1189.5" y="330.5" width="303" height="121" rx="7.5" stroke="#A6B0B9"/>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="1209" y="357.125">EVIDENCE / READ</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="1209" y="385.273">Context synthesis</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="1209" y="409.375">Risks, patterns and dependencies</tspan></text>
+<rect x="1189.5" y="478.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="1189.5" y="478.5" width="303" height="121" rx="7.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="1209" y="505.125">HUMAN / DECISION</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="1209" y="533.273">Analyst validation</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="1209" y="557.375">Inspect live state as necessary</tspan></text>
+<rect x="1189.5" y="626.5" width="303" height="121" rx="7.5" fill="#0D0F11"/>
+<rect x="1189.5" y="626.5" width="303" height="121" rx="7.5" stroke="#D9B382"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="11" letter-spacing="0em"><tspan x="1209" y="653.125">HUMAN / DECISION</tspan></text>
+<text fill="#EDF2F2" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="1209" y="681.273">Treatment decision</tspan></text>
+<text fill="#A6B0B9" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="1209" y="705.375">No autonomous closure or </tspan><tspan x="1209" y="722.375">escalation</tspan></text>
+<rect x="53" y="811" width="1534" height="60" rx="9" fill="#0D0F11"/>
+<text fill="#D9B382" style="white-space: pre" xml:space="preserve" font-family="IBM Plex Mono" font-size="13" letter-spacing="0em"><tspan x="71" y="844.375">CITATIONS PROVIDE TRACEABILITY, NOT ABSOLUTE TRUTH &#xb7; HUMAN IN CONTROL</tspan></text>
+</svg>
