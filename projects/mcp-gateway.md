@@ -44,3 +44,5 @@ Strong boundaries can become counterproductive if they prevent real end-to-end p
 No private tool schema, service hostname, Cloudflare identity, key, audit token or sensitive infrastructure wiring appears in this case study.
 
 **Related public code:** [Agent Governance Lab](https://github.com/Ozzurac/agent-governance-lab) demonstrates a reduced controller/verification loop without network or system privileges.
+
+**Sanitized architecture:** [Governed execution](../architecture/governed-execution.md) · [Hybrid systems](../architecture/hybrid-systems.md).
