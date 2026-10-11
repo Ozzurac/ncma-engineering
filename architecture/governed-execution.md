@@ -4,6 +4,12 @@
 
 The underlying rule is independent of any specific model or deployment: **a model may propose; the controller owns authorization; an observer reports what happened.**
 
+![NCMA Governed Execution, separating model proposal, human authorization, execution and verified outcomes](assets/governed-execution.svg)
+
+*Figma-authored editorial overview. Logical boundaries only; not deployment topology or proof of a fully integrated runtime. [Visual provenance and publication review](assets/README.md).*
+
+**Maintained Mermaid model (detailed decision and exception paths):**
+
 ```mermaid
 flowchart TD
     USER["Human request / intent"] --> MODEL["Untrusted model suggestion"]
