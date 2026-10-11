@@ -2,7 +2,7 @@
 
 **Applied AI, agentic systems, deterministic validation and operational engineering.**
 
-This repository is the public engineering portfolio of **Valter Lourenço Junior**. It describes selected projects built within the NCMA Systems lab, with explicit boundaries between **implemented**, **measured**, **pending**, and **unreleased** work.
+This repository is the public engineering portfolio of **Valter Lourenço Junior**. It covers **independent NCMA Systems lab projects** and, in a separately labeled section, **generalized professional engineering work** developed during employment. Each account distinguishes **implemented**, **measured**, **pending**, and **unreleased** claims.
 
 > The aim is not to claim that every subsystem is production-ready. It is to show engineering decisions, failure analysis, verification methods and the reasoning behind them.
 
@@ -23,6 +23,17 @@ This repository is the public engineering portfolio of **Valter Lourenço Junior
 | [Fine-tuning and evaluation](projects/fine-tuning-evaluation.md) | Held-out ASR adaptation, LoRA export parity and safety limitations | **Dated training/evaluation case study** |
 | [Agent Governance Lab](https://github.com/Ozzurac/agent-governance-lab) | Small Python implementation of a governed tool loop | **Runnable source + automated tests** |
 | [NCMA Validation Patterns](https://github.com/Ozzurac/ncma-validation-patterns) | Safe error contracts, asymmetric regression comparison and quality metrics | **Standalone runnable Python + automated tests** |
+
+## Professional engineering work | Employment context
+
+These are **independently authored, high-level technical accounts** of projects developed during employment at **Accenture**. The documents are not employer-endorsed releases and contain **no company code, internal process specifications, protected records or client information**. They are **not NCMA-owned products**.
+
+| Case study | Engineering focus | Public material |
+| --- | --- | --- |
+| [Operational Backlog Compliance](projects/operational-backlog-compliance.md) | Python deterministic preprocessing, bounded semantic review, recovery, coverage reconciliation and historical evidence | [Sanitized case + Figma visual](projects/operational-backlog-compliance.md) |
+| [Evidence-Assisted Backlog Triage](projects/evidence-assisted-backlog-triage.md) | Grounded retrieval, context correlation, provenance, uncertainty and analyst-controlled decisions | [Sanitized case + Figma visual](projects/evidence-assisted-backlog-triage.md) |
+
+**Publication boundary:** these descriptions explain engineering decisions and individual contributions. They do not publish or reverse-engineer the employer's actual implementation, architecture or operational processes. See the [publication policy](PUBLICATION.md).
 
 ## Architecture maps
 
