@@ -8,40 +8,49 @@ This is a **sanitized capability-zone diagram**, not a literal network, runtime 
 
 *Figma-authored editorial overview. Logical boundaries only; not deployment topology or proof of a fully integrated runtime. [Visual provenance and publication review](assets/README.md).*
 
-**Maintained Mermaid model (detailed decision and exception paths):**
+**Technical references (Mermaid):** two compact flows below separate **model selection** from **action authority**. They deliberately avoid one giant inferred deployment graph.
+
+<details>
+<summary>Flow A: local-first interaction and optional inference</summary>
 
 ```mermaid
-flowchart LR
-    subgraph LOCAL["Local interaction zone"]
-      INPUT["Voice / text / screen context"]
-      UX["Jarvis session and UI"]
-      ROUTE["Controller-aware model selection"]
-      LLM["Local inference"]
-      INPUT --> UX --> ROUTE --> LLM
-    end
-    subgraph EXTERNAL["Optional managed capability"]
-      API["Hosted inference API"]
-    end
-    subgraph PRIVATE["Private service capabilities — logical only"]
-      SEARCH["Search and extraction"]
-      KNOW["Durable knowledge and retrieval"]
-      DOMAIN["Domain-specific validation / build"]
-    end
-    subgraph CONTROL["Authority and evidence boundary"]
-      POLICY["Typed capabilities, policy, owner confirmation"]
-      PROOF["Receipts, validation and provenance"]
-      REVIEW["Human review"]
-      POLICY --> PROOF --> REVIEW
-    end
-    ROUTE -. "explicitly selected fallback / profile" .-> API
-    UX -->|"proposed operation"| POLICY
-    POLICY -->|"authorized read or bounded operation"| SEARCH
-    POLICY -->|"read-only discovery where integrated"| KNOW
-    POLICY -->|"domain scope where integrated"| DOMAIN
-    SEARCH -->|"source references"| PROOF
-    KNOW -->|"retrieval evidence"| PROOF
-    DOMAIN -->|"validation observations"| PROOF
+flowchart TB
+    INPUT["Voice, text or screen"] --> JARVIS["Jarvis session"]
+    JARVIS --> ROUTER["Model selection"]
+    ROUTER --> LOCAL["Local inference"]
+    ROUTER -.-> HOSTED["Hosted inference (optional)"]
 ```
+
+*The hosted path represents a selected fallback/profile, not unrestricted model access.*
+
+</details>
+
+<details>
+<summary>Flow B: controlled capability and verification</summary>
+
+```mermaid
+flowchart TB
+    PROPOSE["Proposed operation"] --> CHECK["Typed scope and policy check"]
+    CHECK --> AUTH{"Authorized?"}
+    AUTH -->|"No or unknown"| DENY["DENIED / UNKNOWN"]
+    AUTH -->|"Yes"| ADAPTER["Bounded domain capability"]
+    ADAPTER --> EVIDENCE["Receipt and observed evidence"]
+    EVIDENCE --> REVIEW["Human review where required"]
+```
+
+*Consequential changes require trusted owner confirmation. A model suggestion or adapter acknowledgement is not evidence of a verified effect.*
+
+</details>
+
+**Service capabilities and what can be inspected**
+
+| Logical capability | Allowed role when separately integrated | Evidence boundary |
+| --- | --- | --- |
+| Search and extraction | Bounded discovery | Source URLs and extracted references |
+| Knowledge retrieval | Read-only discovery/ranking | Provenance and retrieved candidates; not domain truth |
+| Domain validation / build | Domain-scoped checks and operations | Validation receipts and independently observed effects where available |
+
+These are **distinct workstreams and responsibility classes**, not proof that Jarvis, Knowledge Runtime, Web Research and ModForge share one deployed gateway or completed end-to-end integration.
 
 ## Verified component boundaries
 
