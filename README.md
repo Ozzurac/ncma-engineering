@@ -10,7 +10,7 @@ This repository is the public engineering portfolio of **Valter Lourenço Junior
 
 ## Field notes / Research narratives
 
-**[Beyond Fine-Tuning: What We Learned Building AI Systems](stories/beyond-fine-tuning-2026.md)** — a September–October 2026 evidence-based retrospective across speech-model adaptation, LLM LoRA export parity, local inference, GPT-OSS 20B long-context failure and verified checkpointed orchestration. It links positive **and** negative results without conflating laboratory success with production acceptance. [Portuguese LinkedIn editorial draft](stories/linkedin-launch-pt-br.md).
+**[Beyond Fine-Tuning: What We Learned Building AI Systems](stories/beyond-fine-tuning-2026.md)** ([edição em português](stories/alem-do-fine-tuning-2026.md)) — a September–October 2026 evidence-based retrospective across speech-model adaptation, LLM LoRA export parity, local inference, GPT-OSS 20B long-context failure and verified checkpointed orchestration. It links positive **and** negative results without conflating laboratory success with production acceptance. [Portuguese LinkedIn editorial draft](stories/linkedin-launch-pt-br.md).
 
 ## Projects
 
