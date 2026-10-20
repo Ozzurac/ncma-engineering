@@ -12,6 +12,7 @@ This repository is the public engineering portfolio of **Valter Lourenço Junior
 
 | Case study | What it demonstrates | Public artifact |
 | --- | --- | --- |
+| [Beyond Fine-Tuning: Field Notes 01](projects/beyond-fine-tuning-field-notes-2026.md) | Experiments from ASR adaptation to verified checkpointed agent runtime | **Editorial synthesis with dated evidence and limitations** |
 | [Jarvis V2: Local-first AI agent](projects/jarvis-v2.md) | Desktop agency, local model/voice integration, human authorization, execution receipts, product acceptance | Architecture and dated evidence; **not a release** |
 | [ModForge V2: Validation against reality](projects/modforge-v2.md) | Parsing, inheritance resolution, schema proof, defect injection and independent runtime probes | Failure analysis and verification methodology |
 | [Knowledge Runtime](projects/knowledge-runtime.md) | Persistent evidence, provenance and bounded lexical/vector discovery | Sanitized architectural account; operational health checkpoint, not a public API |
