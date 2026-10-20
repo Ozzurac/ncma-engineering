@@ -6,6 +6,8 @@
 
 **Em português:** Esta publicação revisita nosso whitepaper de setembro de 2026, mas troca a lista de técnicas por resultados reais: uma adaptação de ASR que funcionou, um LoRA que preservou o comportamento mas não atingiu qualidade operacional, benchmarks rápidos que terminaram em truncamento e um sistema híbrido que concluiu uma tarefa sintética que uma chamada monolítica não conseguiu resolver.
 
+**Read in Portuguese:** [Além do Fine-Tuning — edição completa](alem-do-fine-tuning-2026.md).
+
 ---
 
 ## We started with a map. The experiments forced us to redraw it.
