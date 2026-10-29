@@ -1,0 +1,20 @@
+# Datadog Software Catalog definition (schema v3). Ownership and links for this repository.
+apiVersion: v3
+kind: service
+metadata:
+  name: ncma-engineering
+  displayName: NCMA Engineering
+  description: "Evidence-led engineering portfolio: Jarvis, ModForge, MCP Gateway and AI research."
+  owner: ncma
+  tags:
+    - repo:ncma-engineering
+    - language:markdown
+  links:
+    - name: Source
+      type: repo
+      url: https://github.com/Ozzurac/ncma-engineering
+      provider: github
+spec:
+  languages: [markdown]
+  componentOf:
+    - system:ncma-platform
